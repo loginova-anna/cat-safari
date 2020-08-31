@@ -8,3 +8,7 @@ let infoElement = document.getElementById(infoId);
 let emptyElement = document.getElementById(emptyId);
 infoElement.classList.remove('hidden');
 emptyElement.classList.add('hidden');
+
+function reload() {
+    window.location.reload();
+}
